@@ -16,3 +16,12 @@ function CountDown(num = 5){
     console.log(num);
     CountDown(--num);
 }
+
+// Write a recursive function that counts up from a given negative number n to 0
+function NegativeCountUp(num = -5){
+    if (num >= 0){
+        return num
+    }
+    console.log(num)
+    NegativeCountUp(++num)
+}
