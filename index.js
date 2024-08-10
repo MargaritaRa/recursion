@@ -25,3 +25,12 @@ function NegativeCountUp(num = -5){
     console.log(num)
     NegativeCountUp(++num)
 }
+
+// function NegativeCountUp( num = -5){
+//     if (num >= 0){
+//         return num;
+//     }
+
+//     console.log(num)
+//     NegativeCountUp(++num)
+// }
